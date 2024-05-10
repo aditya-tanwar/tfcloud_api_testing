@@ -1,6 +1,10 @@
 variable "region" {}
   
-variable "access_key" {}
+variable "access_key" {
+  default = "test"
+}
 
-variable "secret_key" {}
+variable "secret_key" {
+  default = "test"
+}
 
